@@ -64,6 +64,7 @@ def start():
       clear()
     if commandbar == 'exit':
       clear()
+      print('Thank you for using! To restart, just type in "restart()"!')
       break
     if commandbar == 'dir':
       print('Directory of ' + directory + '\ ')
